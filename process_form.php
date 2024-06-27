@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = htmlspecialchars($_POST["username"]);
-    $email = htmlspecialchars($_POST["email"]);
-    $age = htmlspecialchars($_POST["age"]);
+    $username = $_POST["username"];
+    $email = ($_POST["email"];
+    $age = $_POST["age"];
     
     // Displaying the submitted data
     echo "<h2>Submitted Information:</h2>";
