@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
-    $email = ($_POST["email"];
+    $email = $_POST["email"];
     $age = $_POST["age"];
     
     // Displaying the submitted data
